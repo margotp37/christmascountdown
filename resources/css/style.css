@@ -1,0 +1,129 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+/*
+    Things to add:
+    Snow effect? 
+    Mini santas all over the place?
+    Clickable items such as presents and christmas trees.
+    Convert the timer to second and minutes etc.
+    Different timezones.
+
+
+*/
+
+/* Univeral styles end here */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+/*    align-items: stretch;*/
+    height: 100%;
+    background-image: url('../images/background.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+}
+
+.thing {
+    height: 0px;
+    width: 0px;
+    background: #ccc;
+}
+
+
+/* TOP SECTION */
+
+header h1 {
+    font-size: 110px;
+    color: red;
+    font-family: 'Rochester', cursive;
+}
+
+/* MIDDLE SECTION */
+.mid {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+/*    border: 1px solid red;*/
+}
+
+.main-counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+
+    align-items: center;
+    align-content: center;
+}
+
+.counter {
+    width: 25%;
+    align-self: center;
+    display: flex;
+    border-right: 1px solid red;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter:nth-child(4){
+    border-right: none;
+}
+
+.counter h2 {
+    font-size: 60px;
+    color: red;
+    font-family: 'Rochester', cursive;
+}
+
+.counter h3 {
+    font-size: 40px;
+    color: red;
+    font-family: 'Amatic SC', cursive;
+}
+
+.side-note {
+    margin-bottom: 45px;
+}
+.side-note h4 {
+    font-size: 80px;
+    font-family: 'Tangerine', cursive;
+}
+
+#santa {
+    color: red;
+}
+/*BOTTOM SECTION */
+
+.bottom: {
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
